@@ -71,7 +71,7 @@ target("Core")
 
 target("App")
 	set_kind("binary")
-	set_languages("c++26")
+	set_languages("c++23")
 	set_runtimes("MT")
 
 	set_targetdir("bin/".. outputdir .. "/App")
